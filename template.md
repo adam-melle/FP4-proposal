@@ -1,6 +1,8 @@
-# Project Title: title here (10 words maximum)
+# Project Title: Random Game Map Generator
 
 ### Statement
+  Our project is a random game map generator. It will generate 2D game maps using various square tiles holding different graphics. Each graphic will be attached to rules that will determine the nature of how it can be randomly generated. For example, some tiles may only be able to appear a certain number of times, or some may not be able to be placed adjacent to each other. Our project is interesting because, depending on the complexity of our tile placement rules and the number of graphics we have, we can generate a large number of unique maps.
+
 Describe your project. Why is it interesting? Why is it interesting to you personally? What do you hope to learn? 
 
 ### Analysis
