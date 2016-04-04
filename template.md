@@ -6,14 +6,14 @@
 Describe your project. Why is it interesting? Why is it interesting to you personally? What do you hope to learn? 
 
 ### Analysis
-  Our plan is to implement the design using a hash table and an array. The hash table will hold the textures and their placement rules, and the array will be used to represent the grid that the tiles will be placed on. We plan to use the picturing-programs library to manipulate the graphics and possibly the gui library to create a window and generating options. Recursion will be used when randomly generating the maps as well as for printing the contents in the array to a window.
+  Our plan is to implement the design using a hash table and an array. The hash table will hold the textures and their placement rules, and the array will be used to represent the grid that the tiles will be placed on. We plan to use the picturing-programs library to manipulate the graphics and possibly the gui library for creating a window and random generating options. Recursion will be used for randomly generating the maps and for printing the contents of the array to a window. Filter may be used for finding graphics that are eligable for placement on a certain tile. There is also a strong possibility that me might use object-orientation for each graphic. By doing this we can give each graphic it's own properties that will be useful when determining how to place them.
 
-Explain what approaches from class you will bring to bear on the project. Be explicit: e.g., will you use recursion? How? Will you use map/filter/reduce? How? Will you use data abstraction? Will you use object-orientation? Will you use functional approaches to processing your data? Will you use state-modification approaches? A combination?
+  Explain what approaches from class you will bring to bear on the project. Be explicit: e.g., will you use recursion? How? Will you use map/filter/reduce? How? Will you use data abstraction? Will you use object-orientation? Will you use functional approaches to processing your data? Will you use state-modification approaches? A combination?
 
 The idea here is to identify what ideas from the class you will use in carrying out your project. 
 
 ### Data set or other source materials
-We may decide to use royalty free graphics found on free graphics websites for our tiles.
+We may decide to use graphics found on free use graphics websites for our tiles. The graphic will be resized and editted if needed.
 
 If you will be working with existing data, where will you get those data from? (Dowload it from a website? access it in a database? create it in a simulation you will build....)
 
