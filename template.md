@@ -6,11 +6,15 @@
 Describe your project. Why is it interesting? Why is it interesting to you personally? What do you hope to learn? 
 
 ### Analysis
+  Our plan is to implement the design using a hash table and an array. The hash table will hold the textures and their placement rules, and the array will be used to represent the grid that the tiles will be placed on. We plan to use the picturing-programs library to manipulate the graphics and possibly the gui library to create a window and generating options. Recursion will be used when randomly generating the maps as well as for printing the contents in the array to a window.
+
 Explain what approaches from class you will bring to bear on the project. Be explicit: e.g., will you use recursion? How? Will you use map/filter/reduce? How? Will you use data abstraction? Will you use object-orientation? Will you use functional approaches to processing your data? Will you use state-modification approaches? A combination?
 
 The idea here is to identify what ideas from the class you will use in carrying out your project. 
 
 ### Data set or other source materials
+We may decide to use royalty free graphics found on free graphics websites for our tiles.
+
 If you will be working with existing data, where will you get those data from? (Dowload it from a website? access it in a database? create it in a simulation you will build....)
 
 How will you convert that data into a form usable for your project?  
@@ -29,6 +33,8 @@ Will it run on some data, like batch mode? Will you present some analytical resu
 Will it be interactive? Can you show it working? This project involves a live demo, so interactivity is good.
 
 ### Evaluation of Results
+  We will know that we were successful if we can randomly generate valid maps. Meaning that the path intended to be taken by a player is not obstructed by walls, water, or any tile that is considered to be an obstruction. If the end of a map is unreachable, we'll know that our tile placement algorithms aren't working properly.
+
 How will you know if you are successful? 
 If you include some kind of _quantitative analysis,_ that would be good.
 
@@ -49,13 +55,13 @@ You will be expected to turn in code, documentation, and data (as appropriate) a
 Write concrete steps for your schedule to move from concept to working system. 
 
 ### First Milestone (Fri Apr 15)
-What exactly will be turned in on this day? 
+  By the first milestone we want to have a working manual map generator. The tiles have to be placed in the array by the user, but the map should be able to be displayed in a window by this point. We also plan to have a fair number of different graphics available to use.
 
 ### Second Milestone (Fri Apr 22)
-What exactly will be turned in on this day? 
+  By the second milestone we'd like to have a random generate button that is capable of generating random maps, that for the most part, are obstruction free. We may still need to refine our placement algorithms to guarentee a valid map. This will the most challenging part of the project and will take a lot of testing to perfect.
 
 ### Final Presentation (last week of semester)
-What additionally will be done in the last chunk of time?
+  Assuming that we don't run into any unforseen problems, we'd like to use this time to perfect the tile placement rules and algorithms so that a valid random map is generated each time. We may also add in more graphics for the tiles.
 
 ## Group Responsibilities
 Here each group member gets a section where they, as an individual, detail what they are responsible for in this project. Each group member writes their own Responsibility section. Include the milestones and final deliverable.
