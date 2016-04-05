@@ -1,44 +1,30 @@
 # Project Title: Random Game Map Generator
 
 ### Statement
-  Our project is a random game map generator. It will generate 2D game maps using various square tiles holding different graphics. Each graphic will be attached to rules that will determine the nature of how it can be randomly generated. For example, some tiles may only be able to appear a certain number of times, or some may not be able to be placed adjacent to each other. Our project is interesting because, depending on the complexity of our tile placement rules and the number of graphics we have, we can generate a large number of unique maps that appear to be designed by a human, but are actually generated randomly.
+Adam: Our project is a random game map generator. It will generate 2D game maps using various square tiles holding different graphics. Each graphic will be attached to rules that will determine the nature of how it can be randomly generated. For example, some tiles may only be able to appear a certain number of times, or some may not be able to be placed adjacent to each other. Our project is interesting because, depending on the complexity of our tile placement rules and the number of graphics we have, we can generate a large number of unique maps that appear to be designed by a human, but are actually generated randomly.
 
-Describe your project. Why is it interesting? Why is it interesting to you personally? What do you hope to learn? 
+John:
 
 ### Analysis
-  Our plan is to implement the design using a hash table and an array. The hash table will hold the textures and their placement rules, and the array will be used to represent the grid that the tiles will be placed on. We plan to use the picturing-programs library to manipulate the graphics and possibly the gui library for creating a window and random generating options. Recursion will be used for randomly generating the maps and for printing the contents of the array to a window. Filter may be used for finding graphics that are eligable for placement on a certain tile. There is also a strong possibility that me might use object-orientation for each graphic. By doing this we can give each graphic its own properties that will be useful when determining how to place them.
+Adam: Our plan is to implement the design using a hash table and an array. The hash table will hold the textures and their placement rules, and the array will be used to represent the grid that the tiles will be placed on. We plan to use the picturing-programs library to manipulate the graphics and possibly the gui library for creating a window and random generating options. Recursion will be used for randomly generating the maps and for printing the contents of the array to a window. Filter may be used for finding graphics that are eligable for placement on a certain tile. There is also a strong possibility that me might use object-orientation for each graphic. By doing this we can give each graphic its own properties that will be useful when determining how to place them.
 
-  Explain what approaches from class you will bring to bear on the project. Be explicit: e.g., will you use recursion? How? Will you use map/filter/reduce? How? Will you use data abstraction? Will you use object-orientation? Will you use functional approaches to processing your data? Will you use state-modification approaches? A combination?
-
-The idea here is to identify what ideas from the class you will use in carrying out your project. 
+John:
 
 ### Data set or other source materials
-We may decide to use graphics found on free use graphics websites for our tiles. The graphics will be resized and edited if needed.
+Adam: We may decide to use graphics found on free use graphics websites for our tiles. The graphics will be resized and edited if needed.
 
-If you will be working with existing data, where will you get those data from? (Dowload it from a website? access it in a database? create it in a simulation you will build....)
-
-How will you convert that data into a form usable for your project?  
-
-Do your homework here: if you are pulling data from somewhere, actually go download it and look at it. Explain in some detail what your plan is for accomplishing the necessary processing.
-
-If you are using some other starting materails, explain what they are. Basically: anything you plan to use that isn't code.
+John:
 
 ### Deliverable and Demonstration
-In the end we will have a program capable of generating valid random tile maps using various graphics. The program will display a window containing a randomize button and randomization options. It will also have an area to display the generated map.
+Adam: In the end we will have a program capable of generating valid random tile maps using various graphics. The program will display a window containing a randomize button and randomization options. It will also have an area to display the generated map.
 
-Explain exactly what you'll have at the end. What will it be able to do at the live demo?
+John:
 
-What exactly will you produce at the end of the project? A piece of software, yes, but what will it do? Here are some questions to think about (and answer depending on your application).
-
-Will it run on some data, like batch mode? Will you present some analytical results of the processing? How can it be re-run on different source data?
-
-Will it be interactive? Can you show it working? This project involves a live demo, so interactivity is good.
 
 ### Evaluation of Results
-  We will know that we were successful if we can randomly generate valid maps. Meaning that the path intended to be taken by a player is not obstructed by walls, water, or any tile that is considered to be an obstruction. If the end of a map is unreachable, we'll know that our tile placement algorithms aren't working properly.
+Adam: We will know that we were successful if we can randomly generate valid maps. Meaning that the path intended to be taken by a player is not obstructed by walls, water, or any tile that is considered to be an obstruction. If the end of a map is unreachable, we'll know that our tile placement algorithms aren't working properly.
 
-How will you know if you are successful? 
-If you include some kind of _quantitative analysis,_ that would be good.
+John:
 
 ## Architecture Diagram
 Upload the architecture diagram you made for your slide presentation to your repository, and include it in-line here.
@@ -57,13 +43,19 @@ You will be expected to turn in code, documentation, and data (as appropriate) a
 Write concrete steps for your schedule to move from concept to working system. 
 
 ### First Milestone (Fri Apr 15)
-  By the first milestone we want to have a working manual map generator. The graphics will have to be placed in the array by the user, but the map should be able to be displayed in a window by this point. We also plan to have a fair number of different graphics available for use.
+Adam: By the first milestone we want to have a working manual map generator. The graphics will have to be placed in the array by the user, but the map should be able to be displayed in a window by this point. We also plan to have a fair number of different graphics available for use.
+
+John:
 
 ### Second Milestone (Fri Apr 22)
-  By the second milestone we'd like to have a random generate button that is capable of generating random maps, that for the most part, are obstruction free. We may still need to refine our placement algorithms to guarentee a valid map. This will the most challenging part of the project and will take a lot of testing to perfect.
+Adam: By the second milestone we'd like to have a random generate button that is capable of generating random maps, that for the most part, are obstruction free. We may still need to refine our placement algorithms to guarentee a valid map. This will the most challenging part of the project and will take a lot of testing to perfect.
+
+John:
 
 ### Final Presentation (last week of semester)
-  Assuming that we don't run into any unforseen problems, we'd like to use this time to perfect the tile placement rules and algorithms so that a valid random map is generated each time. We may also add in more graphics for the tiles.
+Adam: Assuming that we don't run into any unforseen problems, we'd like to use this time to perfect the tile placement rules and algorithms so that a valid random map is generated each time. We may also add in more graphics for the tiles.
+
+John:
 
 ## Group Responsibilities
 Here each group member gets a section where they, as an individual, detail what they are responsible for in this project. Each group member writes their own Responsibility section. Include the milestones and final deliverable.
